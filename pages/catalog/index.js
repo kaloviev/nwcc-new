@@ -62,14 +62,22 @@ const Catalog = () => {
     //     'Чистящие средства'
     // ])
 
-    const staticFilter = [
-        "Бренд",
-        "Страны",
-        "Фасовка",
-        "Обработка",
-        "Новинки",
-        "Скидки"
-    ]
+    // const staticFilter = [
+    //     "Бренд",
+    //     "Страны",
+    //     "Фасовка",
+    //     "Обработка",
+    //     "Новинки",
+    //     "Скидки"
+    // ]
+    const brewing = ['Автоматические кофемашины', 'Гейзерные кофеварки', 'Турка', 'Эспрессо', 'Фильтр']
+
+    const filterNames = {
+        brand: "Бренд",
+        country: "Страны",
+        weight: "Вес",
+        brewing: "Обработка",
+    }
 
     const [viewType, setViewType] = useState('grid');
 
@@ -131,16 +139,21 @@ const Catalog = () => {
                             <div className='w-5/12 px-16'>
                                 <h3 className='font-muller font-medium text-14 mb-4'>Фильтр</h3>
                                 <ul className='flex items-center -mx-10'>
-                                    {/* {filters && Object.keys(filters).map((key, i) => {
+                                    {filters && Object.keys(filters).map((key, i) => {
                                         return (
                                              <li key={i} className="font-ptsans text-14 px-10">
-                                                <li key={i} className="font-ptsans text-14 px-10">{staticFilter}</li>
-                                                label, name, options, selected , action, className, wrapperClass
-                                             <Select label={key} name={key} selected="1" options={[1, 2, 3]}></Select>
+                                                {/* <li key={i} className="font-ptsans text-14 px-10">{staticFilter}</li> */}
+                                                {/* label, name, options, selected , action, className, wrapperClass */}
+                                             <Select label={filterNames[key]} name={key} selected="1" options={filters[key].values.map(value => {
+                                                if (key == 'brewing') {
+                                                    return { value: brewing[value] }
+                                                }
+                                                return { value }
+                                            })}></Select>
                                             </li>
                                         )
-                                      })}*/}
-                                    {staticFilter.map((filter, i) => <li key={i} className="font-ptsans text-14 px-10">{filter}</li>)}
+                                      })}
+                                    {/* {staticFilter.map((filter, i) => <li key={i} className="font-ptsans text-14 px-10">{filter}</li>)} */}
                                 </ul>
                             </div>
 
