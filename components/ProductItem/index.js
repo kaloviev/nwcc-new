@@ -56,7 +56,7 @@ const ProductItem = ({ product, data, type, hoverAction, isFavorite }) => {
                 </Link>
             </div>
             <div className='pb-10 border-b border-gray-30'>
-                <div className={`font-ptsans  text-gray-60 leading-1 lg:leading-normal lg:text-14 ${type === 'grid' ? 'text-12' : 'text-14'}`}>{data.type}</div>
+                <div className={`font-ptsans  text-gray-60 leading-1 lg:leading-normal lg:text-14 ${type === 'grid' ? 'text-12' : 'text-14'}`}>[not Found]</div>
                 <div className=''><Link href="/catalog/product" className={`font-kazimir block  italic text-gray-60 leading-none lg:leading-normal lg:text-20 ${type === 'grid' ? 'text-14' : 'text-20'}`}>{product.title}</Link></div>
             </div>
             <div className={`flex border-b border-gray-30 ${type === 'grid' ? 'mb-0' : 'mb-10'}`}>
