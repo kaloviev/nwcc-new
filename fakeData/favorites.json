@@ -1,0 +1,152 @@
+[
+    {
+        "name":"Ethiopia Gedeb",
+        "type":"Мытый",
+        "categories":["Абрикос", "шоколад", "арбуз", "майонез"],
+        "ingredients":[
+            {
+                "name":"Обжарка",
+                "quantity":40
+            },
+            {
+                "name":"Кислотность",
+                "quantity":90
+            },
+            {
+                "name":"Сладость",
+                "quantity":80
+            },
+            {
+                "name":"Горечь",
+                "quantity":80
+            }
+            
+        ],
+        "productImage":"/images/product-image-2.jpg"
+    },
+    {
+        "name":"Ethiopia Gedeb",
+        "type":"Мытый",
+        "categories":["Абрикос", "шоколад", "арбуз", "майонез"],
+        "ingredients":[
+            {
+                "name":"Обжарка",
+                "quantity":40
+            },
+            {
+                "name":"Кислотность",
+                "quantity":90
+            },
+            {
+                "name":"Сладость",
+                "quantity":80
+            },
+            {
+                "name":"Горечь",
+                "quantity":80
+            }
+            
+        ],
+        "productImage":"/images/product-image-3.jpg"
+    },
+    {
+        "name":"Ethiopia Gedeb",
+        "type":"Мытый",
+        "categories":["Абрикос", "шоколад", "арбуз", "майонез"],
+        "ingredients":[
+            {
+                "name":"Обжарка",
+                "quantity":40
+            },
+            {
+                "name":"Кислотность",
+                "quantity":90
+            },
+            {
+                "name":"Сладость",
+                "quantity":80
+            },
+            {
+                "name":"Горечь",
+                "quantity":80
+            }
+            
+        ],
+        "productImage":"/images/product-image-2.jpg"
+    },
+    {
+        "name":"Ethiopia Gedeb",
+        "type":"Мытый",
+        "categories":["Абрикос", "шоколад", "арбуз", "майонез"],
+        "ingredients":[
+            {
+                "name":"Обжарка",
+                "quantity":40
+            },
+            {
+                "name":"Кислотность",
+                "quantity":90
+            },
+            {
+                "name":"Сладость",
+                "quantity":80
+            },
+            {
+                "name":"Горечь",
+                "quantity":80
+            }
+            
+        ],
+        "productImage":"/images/product-image-3.jpg"
+    },
+    {
+        "name":"Ethiopia Gedeb",
+        "type":"Мытый",
+        "categories":["Абрикос", "шоколад", "арбуз", "майонез"],
+        "ingredients":[
+            {
+                "name":"Обжарка",
+                "quantity":40
+            },
+            {
+                "name":"Кислотность",
+                "quantity":90
+            },
+            {
+                "name":"Сладость",
+                "quantity":80
+            },
+            {
+                "name":"Горечь",
+                "quantity":80
+            }
+            
+        ],
+        "productImage":"/images/product-image-2.jpg"
+    },
+    {
+        "name":"Ethiopia Gedeb",
+        "type":"Мытый",
+        "categories":["Абрикос", "шоколад", "арбуз", "майонез"],
+        "ingredients":[
+            {
+                "name":"Обжарка",
+                "quantity":40
+            },
+            {
+                "name":"Кислотность",
+                "quantity":90
+            },
+            {
+                "name":"Сладость",
+                "quantity":80
+            },
+            {
+                "name":"Горечь",
+                "quantity":80
+            }
+            
+        ],
+        "productImage":"/images/product-image-3.jpg"
+    }
+]

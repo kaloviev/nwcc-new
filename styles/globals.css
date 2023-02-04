@@ -1,0 +1,298 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import 'react-circular-progressbar/dist/styles.css';
+@font-face {
+  font-family: 'Kazimir';
+  src: url('../assets/fonts/Kazimir-Regular.eot');
+  src: url('../assets/fonts/Kazimir-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../assets/fonts/Kazimir-Regular.woff2') format('woff2'),
+      url('../assets/fonts/Kazimir-Regular.woff') format('woff'),
+      url('../assets/fonts/Kazimir-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Kazimir';
+  src: url('../assets/fonts/Kazimir-Medium.eot');
+  src: url('../assets/fonts/Kazimir-Medium.eot?#iefix') format('embedded-opentype'),
+      url('../assets/fonts/Kazimir-Medium.woff2') format('woff2'),
+      url('../assets/fonts/Kazimir-Medium.woff') format('woff'),
+      url('../assets/fonts/Kazimir-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Kazimir';
+  src: url('../assets/fonts/Kazimir-Bold.eot');
+  src: url('../assets/fonts/Kazimir-Bold.eot?#iefix') format('embedded-opentype'),
+      url('../assets/fonts/Kazimir-Bold.woff2') format('woff2'),
+      url('../assets/fonts/Kazimir-Bold.woff') format('woff'),
+      url('../assets/fonts/Kazimir-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* MULLER FONT */
+
+@font-face {
+  font-family: 'Muller';
+  src: url('../assets/fonts/MullerBlack.eot');
+  src: url('../assets/fonts/MullerBlack.eot?#iefix') format('embedded-opentype'),
+      url('../assets/fonts/MullerBlack.woff2') format('woff2'),
+      url('../assets/fonts/MullerBlack.woff') format('woff'),
+      url('../assets/fonts/MullerBlack.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Muller';
+  src: url('../assets/fonts/MullerBold.eot');
+  src: url('../assets/fonts/MullerBold.eot?#iefix') format('embedded-opentype'),
+      url('../assets/fonts/MullerBold.woff2') format('woff2'),
+      url('../assets/fonts/MullerBold.woff') format('woff'),
+      url('../assets/fonts/MullerBold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Muller';
+  src: url('../assets/fonts/MullerExtraBold.eot');
+  src: url('../assets/fonts/MullerExtraBold.eot?#iefix') format('embedded-opentype'),
+      url('../assets/fonts/MullerExtraBold.woff2') format('woff2'),
+      url('../assets/fonts/MullerExtraBold.woff') format('woff'),
+      url('../assets/fonts/MullerExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Muller';
+  src: url('../assets/fonts/MullerMedium.eot');
+  src: url('../assets/fonts/MullerMedium.eot?#iefix') format('embedded-opentype'),
+      url('../assets/fonts/MullerMedium.woff2') format('woff2'),
+      url('../assets/fonts/MullerMedium.woff') format('woff'),
+      url('../assets/fonts/MullerMedium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Muller';
+  src: url('../assets/fonts/MullerRegular.eot');
+  src: url('../assets/fonts/MullerRegular.eot?#iefix') format('embedded-opentype'),
+      url('../assets/fonts/MullerRegular.woff2') format('woff2'),
+      url('../assets/fonts/MullerRegular.woff') format('woff'),
+      url('../assets/fonts/MullerRegular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* PT SANS */
+
+@font-face {
+  font-family: 'PT Sans';
+  src:  url('../assets/fonts/PTSans-Bold.eot');
+  src:  url('../assets/fonts/PTSans-Bold.eot?#iefix') format('embedded-opentype'),
+       url('../assets/fonts/PTSans-Bold.woff2') format('woff2'),
+       url('../assets/fonts/PTSans-Bold.woff') format('woff'),
+       url('../assets/fonts/PTSans-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PT Sans';
+  src:  url('../assets/fonts/PTSans-Regular.eot');
+  src:  url('../assets/fonts/PTSans-Regular.eot?#iefix') format('embedded-opentype'),
+       url('../assets/fonts/PTSans-Regular.woff2') format('woff2'),
+       url('../assets/fonts/PTSans-Regular.woff') format('woff'),
+       url('../assets/fonts/PTSans-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+body{
+  @apply text-gray-80;
+}
+
+.container{
+  @apply px-16 mx-auto;
+
+}
+
+
+
+@screen xl{
+    .container{
+      @apply max-w-[1140px]
+    }
+}
+@screen xxl{
+  .container{
+    @apply max-w-[1466px]
+  }
+}
+
+
+
+/* circular progress */
+.CircularProgressbar .CircularProgressbar-text{
+  font-size: 40px;
+  @apply text-black fill-black;
+}
+
+.CircularProgressbar .CircularProgressbar-path{
+  @apply stroke-black;
+}
+
+
+
+.home-product-grid .home-product-grid-col .home-product-grid-item{
+  @apply border-r border-b border-white;
+}
+
+.home-product-grid .home-product-grid-col:nth-child(2n) .home-product-grid-item{
+  @apply border-r-0;
+}
+
+.home-product-grid .home-product-grid-col:nth-last-of-type(2) .home-product-grid-item,
+.home-product-grid .home-product-grid-col:nth-last-of-type(1) .home-product-grid-item{
+  @apply border-b-0;
+}
+
+@screen lg{
+
+  .home-product-grid .home-product-grid-col:nth-child(3n) .home-product-grid-item{
+    @apply border-r-0;
+  }
+
+  .home-product-grid .home-product-grid-col:nth-child(2n) .home-product-grid-item{
+    @apply border-r;
+  }
+
+
+  .home-product-grid .home-product-grid-col:nth-last-of-type(3) .home-product-grid-item,
+  .home-product-grid .home-product-grid-col:nth-last-of-type(2) .home-product-grid-item,
+  .home-product-grid .home-product-grid-col:nth-last-of-type(1) .home-product-grid-item{
+  @apply border-b-0;
+  }
+}
+
+
+/* post */
+.post h2{
+  @apply text-32 font-kazimir mb-24;
+}
+.post h4{
+  @apply text-18 font-ptsans font-bold mb-16;
+}
+.post p{
+  @apply text font-ptsans mb-18;
+}
+.post h3{
+  @apply font-muller font-medium mb-8 text;
+}
+.post ul{
+  @apply font-ptsans text-12 mb-32 text;
+}
+.post ul li{
+  @apply mb-4;
+}
+
+.post a{
+  @apply underline;
+}
+
+.post-type-2 h4{
+  @apply text-20 font-ptsans font-bold mb-12;
+}
+
+@screen lg{
+  .post-h3{
+    @apply text-20;
+  }
+  .post ul{
+    @apply text mb-60;
+  }
+}
+
+
+
+.form-control{
+
+}
+
+img{
+  @apply max-w-full;
+}
+
+.dot-list li{
+  @apply pl-20 relative  mb-10  text-14;
+}
+
+.dot-list li::before{
+  content:"";
+  @apply h-4 w-4 rounded-full bg-gray-80 inline-block absolute left-6 top-10;
+}
+
+.product-carousel .slick-dots li{
+  @apply w-auto h-auto;
+}
+.product-carousel .slick-dots li button{
+  width: auto;
+  height: auto;
+}
+.product-carousel .slick-dots li button:before{
+  content: '';
+  height: 7px;
+  width:7px;
+  @apply bg-gray-60;
+}
+
+.product-carousel .slick-nav-for .slick-track{
+  display: flex !important;
+  justify-content: center !important;
+}
+
+.product-carousel .slick-nav-for .slick-active.slick-current{
+  @apply border border-gray-60
+}
+
+.bg-pattern-black{
+  background: url('/images/background-pattern.jpg') no-repeat center center/ cover;
+}
+/*
+* {
+  outline: 1px dashed royalblue;
+  outline-offset: 1px;
+}
+* * {
+  outline: 1px dashed royalblue;
+  outline-offset: 1px;
+} */
+
+.with-content ul {
+  list-style: initial;
+}
+
+.with-content p + p,
+.with-content p + ul  {
+  margin-top: 15px;
+}
