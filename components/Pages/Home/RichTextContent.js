@@ -39,7 +39,7 @@ const RichTextContent = () => {
             <ul>
                 <li>Организация каппингов,чемпионатов</li>
                 <li>Выездная кофейняа</li>
-            
+
             </ul>
             )
 
@@ -54,7 +54,7 @@ const RichTextContent = () => {
             </ul>
             )
         },
-        
+
     ]
     return(
         <div className='py-40 lg:py-112'>
@@ -62,7 +62,7 @@ const RichTextContent = () => {
                 <div className='flex flex-wrap -mx-16 lg:-mx-32 lg:pb-76'>
                     <div className="w-full exlg:w-4/12 xl:w-3/12 px-16 lg:px-32">
                         <div className='post mb-32'>
-                            <h2>Что мы делаем</h2>
+                            <h2>Что мы делаем [not found]</h2>
                             <h4>Полный цикл: от идеи до ваших успешных продаж</h4>
                             <p>
                                 По вашему запросу мы разработаем для вас меню с кофейными напитками, рассчитаем себестоимость, продумаем концепцию кофе-корнера, обжарим кофе и привезем его вам, предложим и поставим необходимое для вас оборудование, обучим ваш персонал и наладим систему контроля качества.
@@ -91,14 +91,14 @@ const RichTextContent = () => {
                                     )
                                 })
                             }
-                           
+
                         </div>
                     </div>
                     {/* /.w-full */}
                 </div>
                 {/* /.flex */}
                 <div className='flex lg:justify-center'>
-                    <Button  style="w-full lg:w-auto">Перейти на сайт</Button>
+                    <Button  style="w-full lg:w-auto">Перейти на сайт[not found]</Button>
                 </div>
             </div>
         </div>

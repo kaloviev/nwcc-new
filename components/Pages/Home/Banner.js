@@ -220,7 +220,7 @@ const HomeBanner = ({ brands }) => {
                                                         {items[i].price}
                                                     </div>
                                                     <div className='lg:max-w-[266px]'>
-                                                        <Button style="w-full">Купить</Button>
+                                                        <Button style="w-full">[Not Found]</Button>
                                                     </div>
                                                 </div>
                                             </div>
