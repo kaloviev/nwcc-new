@@ -296,3 +296,10 @@ img{
 .with-content p + ul  {
   margin-top: 15px;
 }
+#nprogress .bar {
+  /* background: rgb(135, 43, 21) !important; */
+  height: 4px !important;
+}
+/* #nprogress .spinner {
+
+} */
